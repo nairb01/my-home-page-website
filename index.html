@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Helapay - Digital Payments</title>
+    <style>
+      body {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0;
+        padding: 0;
+        /* background-color: aqua; */
+        scroll-behavior:smooth;
+        background-image: url("./img/consumption-8009082_1280.jpg");
+        background-attachment: fixed;
+      }
+      header {
+        
+        background: white;
+        padding: 20px 0;
+        position: fixed;
+      
+        /* text-align: center; */
+        /* border-bottom: 0px solid #ccc; */
+      }
+      /* header h1{
+            text-align: left;
+        } */
+      header nav {
+        display: inline-block;
+      }
+      .header nav a {
+        margin: 0 15px;
+        color: #555;
+        text-decoration: none;
+        font-weight: bold;
+     
+      }
+      .topic {
+        padding: 8px 12px;
+      }
+      .nav-links {
+        flex: 1;
+        text-align: right;
+      }
+      .nav-links a.Register {
+        background: #800080;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
+      .nav-links a.Login {
+        background: #800080;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
+      .nav-links ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 4px 12px;
+        top: -70px;
+        position: relative;
+      }
+      .nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #000000;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after {
+  width: 60%;
+} 
+      /* header nav a.sign-up {
+            background: #800080;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px; 
+        
+      header nav a.login {
+        background: #800080;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+      } */
+      .hero {
+        text-align: center;
+        padding: 50px 150px;
+      }
+      .about button,
+      /* .features button, */
+      .finance button,
+      .hero button,
+      .hero input {
+        padding: 10px 20px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+      }
+      .cta button,
+      .about button,
+      /* .features button, */
+      .finance button,
+      .hero button {
+        background: #800080;
+       
+        /* color: rgb(255, 255, 255); */
+      }
+      .cta button a,
+      .about button a,
+      /* .features button a, */
+      .finance button a,
+      .hero button a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        
+      }
+    
+      /* .hero input[type="button"] {
+        background: #ffa500;
+      } */
+      .features,
+      .finance,
+      .about,
+      .cta {
+        text-align: center;
+        padding: 50px 20px;
+        background: #f9f9f9;
+      }
+     
+      .cta {
+        background: #ffa500;
+        color: white;
+      }
+      footer {
+        text-align: center;
+        padding: 30px;
+        background: #333;
+        color: white;
+      }
+      footer a {
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <div class="topic"><h1 style="font-size: 24px;">HELAPAY</h1></div>
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a href="#home">Home</a></li>
+
+            
+            <li><a href="#feature">Features</a></li>
+             <li><a href="#fin">Finance</a></li>
+            <li><a href="#abt">About</a></li>
+           
+            <li><a href="#cnt">Contact</a></li>
+            <li><a href="https://helapay.africa/register" class="Register">Register</a></li>
+            <li><a href="https://helapay.africa/login" class="Login">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <div id="home" class="hero">
+      <h1>Start accepting and receiving digital payments</h1>
+      <p>
+        We give you the single digital payment solution that you will ever need. HelaPay gives you  the power to accept <br> payments online, instore and through mobile applications wherever you are, however you want.
+      </p>
+      <input type="email" placeholder="Enter your email" />
+      <button><a href="https://helapay.africa/register" class="txt">
+        Sign Up
+    </a></button>
+    </div>
+
+    <div id="feature" class="features">
+      <h2>Features</h2>
+      <p>Track all the in-bound and out-bound transactions from all your bank accounts and mobile money accounts. <br> Have control and approval process for all outbound transactions. Create budgets and track all your expenses <br> based on projects, ledger, branches or currency and have real-time visibility on performance. </p>
+      <!-- <button><a href="">Learn More</a></button> -->
+    </div>
+    <div id="fin" class="finance">
+      <h2>Your finances, safe and secure</h2>
+      <p>Our top priority is keeping your data secure. With multiple safety measures, like secure 256-bit encryption <br> and multi-factor authentication, we protect your info like it's our own. We make it easy for you to thrive on your business.
+      </p>
+      <button><a href="https://helapay.africa/features">Learn More</a></button>
+    </div>
+
+    <div id="abt" class="about">
+      <h2>About</h2>
+      <p>
+        We give you the single digital payment solution that you will ever need. HelaPay gives you the power <br> to accept payments online, instore and through mobile applications wherever you are, however you want. With integrations with the <br>leading mobile money providers in the region and the leading banks, start accepting card, mobile money, and direct bank transfers. HelaPay <br>enables you to also pay your suppliers and have an approval process for all the disbursements done. From one single dashboard,<br> you will be able to manage and monitor inflow and outflow of cash in your business.
+      </p>
+      <button><a href="https://helapay.africa/about">Learn More</a></button>
+    </div>
+
+    <div  class="cta">
+      <h2>Try our services today!</h2>
+      <p>Enter your email and request a demo:</p>
+      <input type="text" placeholder="Enter your email address" /> <button><a href="https://helapay.africa/#features" class="txt">
+        submit
+    </a></button>
+     
+    </div>
+
+    <footer id="cnt" class="Contact">
+      <p>Plot 209 ICD Road</p>
+
+       <p>41423 - 00100, Nairobi</p> 
+        
+       <p>Tel: +254750247247</p>  
+        
+       <p>Email: info@helapay.africa</p> 
+      <p><a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a></p>
+      <p>&copy; 2024 Helapay. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
